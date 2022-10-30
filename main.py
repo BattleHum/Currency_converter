@@ -44,8 +44,8 @@ def convert():
 
 
     headers = {
-        "X-RapidAPI-Key": "8113aa42c8msh8f63ec2d6a417dep10c4d2jsn5a400f2e7f59",
-        "X-RapidAPI-Host": "currency-converter18.p.rapidapi.com"
+        "X-RapidAPI-Key": "API-KEY",
+        "X-RapidAPI-Host": "API-HOST"
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
