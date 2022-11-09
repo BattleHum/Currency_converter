@@ -4,7 +4,6 @@ import requests
 from PIL import Image, ImageTk
 import json
 
-# colors
 
 
 window = Tk()
